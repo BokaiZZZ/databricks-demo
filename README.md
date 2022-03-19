@@ -16,6 +16,12 @@ python list_model.py
 ![gcp_list_model](https://user-images.githubusercontent.com/97444802/159104675-c9233860-5240-44b9-919a-decc90233887.png)
 
 ## Download model
+```python
+python download_model.py
+```
+![download_model](https://user-images.githubusercontent.com/97444802/159105389-589ce552-ef75-40e3-8cc4-89d8b77194f0.png)
+
+## Run test file with hard-coded input
 Generate an access token in databricks workspace instance and export into the cloud environment. 
 ```bash
 export DATABRICKS_TOKEN=<my_databricks_token>
